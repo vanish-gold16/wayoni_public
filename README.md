@@ -128,11 +128,6 @@ Wayoni integrates with multiple travel data APIs for real pricing:
 | Source | Purpose |
 |---|---|
 | **Travelpayouts / Aviasales** | Cached flight prices, "cheapest from city X" |
-| **Kiwi.com Tequila** | Flexible flight search, self-transfer routes |
-| **Skyscanner Partners** | 1200+ airlines, "anywhere" search |
-| **FlixBus** | European bus & train schedules and pricing |
-| **OpenTripPlanner** | Multimodal door-to-door routing (self-hosted, GTFS + OSM) |
-| **Rome2Rio** | Ferries and exotic transport options |
 | **OpenStreetMap + GTFS** | Map data and public transit schedules |
 
 ## Scoring algorithm
