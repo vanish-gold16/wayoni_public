@@ -130,22 +130,6 @@ Wayoni integrates with multiple travel data APIs for real pricing:
 | **Travelpayouts / Aviasales** | Cached flight prices, "cheapest from city X" |
 | **OpenStreetMap + GTFS** | Map data and public transit schedules |
 
-## Scoring algorithm
-
-The match percentage on each card comes from a weighted interest scoring system:
-
-```
-score(interest) = Σ(scoreᵢ × priorityᵢ) / Σ(priorityᵢ)
-```
-
-Where `i` iterates over the three geographic levels (city, region, country) that have a value for that interest. The result stays in `[0, 1]` regardless of how weights are distributed.
-
-Final ranking uses two dimensions:
-1. **Tier** (`FULL` / `NEAR`) — did the place satisfy all strict requirements?
-2. **Match %** — within a tier, how well does it fit?
-
-Tier always outranks percentage: a place meeting all requirements beats a partial match at any score.
-
 ## Project status
 
 🚧 **In active development** — this is a real product being built and shipped, not a demo.
