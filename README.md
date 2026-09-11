@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="frontend/public/images/wayoni/wayoni.webp" width="180" alt="Wayoni mascot" />
+  <img src="wayoni.webp" width="180" alt="Wayoni mascot" />
 </p>
 
 <h1 align="center">Wayoni</h1>
@@ -144,7 +144,7 @@ Source code is proprietary and not available for redistribution.
 ---
 
 <p align="center">
-  <img src="frontend/public/images/wayoni/wayoni_explorer.webp" width="120" alt="Wayoni explorer" />
+  <img src="wayoni_searchy.webp" width="120" alt="Wayoni explorer" />
   <br>
   <sub>Built with ☕ and mass transit data</sub>
 </p>
